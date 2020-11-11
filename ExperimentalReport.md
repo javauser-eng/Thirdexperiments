@@ -28,7 +28,7 @@
 
 ## 四.实验设计
 
-1.创建了Studentjiekou类，并设置了xuefei,chaxun两个方法；
+1.创建了Studentjiekou接口类，并设置了xuefei,chaxun两个方法；
 ```
 public interface Studentjiekou {
 	public static void xuefei() {
@@ -40,7 +40,7 @@ public interface Studentjiekou {
 	}
 }
 ```
-2.创建了Teacherjiekou类，并设置了xinshui,chaxun两个方法；
+2.创建了Teacherjiekou接口类，并设置了xinshui,chaxun两个方法；
 ```
 public interface Teacherjiekou {
 	public static void xinshui() {
