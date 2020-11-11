@@ -148,8 +148,8 @@ Doctor s=new Doctor();
 		chaxun.chaxun();
 ```
 ## 六.实验结果及流程图  
+https://github.com/javauser-eng/Thirdexperiments/blob/main/%E5%AE%9E%E9%AA%8C%E8%BF%90%E8%A1%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E7%BB%93%E6%9E%9C.png  
 https://github.com/javauser-eng/Thirdexperiments/blob/main/%E5%AE%9E%E9%AA%8C%E8%BF%90%E8%A1%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E7%BB%93%E6%9E%9C.png
-
 ## 七.实验感想  
 1.通过这次实验我学习了接口方法和异常处理方法；  
 2.加深了对书中内容的理解；  
