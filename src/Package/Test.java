@@ -6,7 +6,7 @@ public class Test {
 	public static void main(String[] args) {		
 		Scanner scanner = new Scanner(System.in);
 		int age = 0;
-	
+		int age1 =0;
 		System.out.println("请输入博士生姓名:");
 		String name = scanner.nextLine();
 		System.out.println("请输入性别");
@@ -27,7 +27,12 @@ public class Test {
 		System.out.println("请输入性别");
 		String sex1 = scanner.next();
 		System.out.println("请输入博士生年龄:");
-		int age1 = scanner.nextInt();
+		try {
+			 age1 = scanner.nextInt();
+		}catch(Exception s){
+			System.out.println("检测到您的输入异常，请重新输入:");
+			System.exit(1);
+		}
 		System.out.println("--------------------------------------");
 		System.out.println("博士生姓名:"+nambr+" 博士生性别:"+sex1+"博士生年龄:"+age1);
 		Doctor s=new Doctor();
